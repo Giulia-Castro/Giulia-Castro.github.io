@@ -1,0 +1,19 @@
+index.html
+  s_54214098f207e0::t_0e13f088021070 53,292
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "e3e2e57645623b95c942a2cfc1eb6eb13c25fb5c",
+  "prompts": {},
+  "sessions": {
+    "s_54214098f207e0": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "94211bd0-6b9d-4bb9-b402-a4345a77b8fc",
+        "model": "unknown"
+      },
+      "human_author": "Giulia Castro <castro.giuliab@gmail.com>"
+    }
+  }
+}
