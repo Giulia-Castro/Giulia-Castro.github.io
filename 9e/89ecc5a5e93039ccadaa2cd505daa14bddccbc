@@ -1,0 +1,29 @@
+LICENSE
+  s_54214098f207e0::t_458ae64ea40b46 1-21
+.gitattributes
+  s_54214098f207e0::t_aa302df7f99c06 1-2
+README.md
+  s_54214098f207e0::t_4d2e86f274851d 1-12
+assets/favicon.svg
+  s_54214098f207e0::t_fa4f235f107e0d 1
+index.html
+  s_54214098f207e0::t_735dfdcd1ab553 1-305
+style.css
+  s_54214098f207e0::t_c6f08974223188 1-254
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "9e89ecc5a5e93039ccadaa2cd505daa14bddccbc",
+  "prompts": {},
+  "sessions": {
+    "s_54214098f207e0": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "94211bd0-6b9d-4bb9-b402-a4345a77b8fc",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Giulia Castro <castro.giuliab@gmail.com>"
+    }
+  }
+}
