@@ -1,0 +1,305 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Giulia Castro · Back-end e automação com IA</title>
+  <meta name="description" content="Portfólio de Giulia Castro: APIs, automações com n8n e agentes de IA com resultados medidos.">
+  <meta property="og:title" content="Giulia Castro · Back-end e automação com IA">
+  <meta property="og:description" content="APIs, automações com n8n e agentes de IA com resultados medidos.">
+  <meta property="og:image" content="https://giulia-castro.github.io/assets/ops-portal.png">
+  <meta name="color-scheme" content="light dark">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <a class="logo" href="#inicio" aria-label="Início">GC<span>.</span></a>
+      <nav aria-label="Seções">
+        <a href="#projetos">Projetos</a>
+        <a href="#como-se-conectam">Arquitetura</a>
+        <a href="#outros">Outros</a>
+        <a href="#stack">Stack</a>
+        <a href="#contato">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="inicio">
+    <!-- Hero -->
+    <section class="hero container">
+      <div class="hero-text">
+        <p class="eyebrow">Back-end · Automação · IA aplicada</p>
+        <h1>Olá, eu sou a <span class="accent">Giulia Castro</span>.</h1>
+        <p class="lead">
+          Construo APIs e automações que tiram trabalho repetitivo das pessoas,
+          com IA onde ela ajuda, regras onde elas bastam
+          e <strong>resultados medidos</strong> em vez de promessas.
+        </p>
+        <p class="meta">
+          Analista de Operações de Sistemas · Pós-graduanda em Engenharia de Software (USP) ·
+          São José dos Campos, SP
+        </p>
+        <div class="actions">
+          <a class="btn btn-primary" href="#projetos">Ver projetos</a>
+          <a class="btn" href="https://github.com/Giulia-Castro" target="_blank" rel="noopener">
+            <svg aria-hidden="true" viewBox="0 0 16 16" width="18" height="18"><path fill="currentColor" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+            GitHub
+          </a>
+          <a class="btn" href="https://br.linkedin.com/in/giulia-castro-a8302b260" target="_blank" rel="noopener">
+            <svg aria-hidden="true" viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 110-4.13 2.06 2.06 0 010 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg>
+            LinkedIn
+          </a>
+        </div>
+      </div>
+      <div class="hero-card" aria-label="Destaques">
+        <div class="stat">
+          <span class="stat-value">3</span>
+          <span class="stat-label">sistemas integrados, testados juntos no CI a cada push</span>
+        </div>
+        <div class="stat">
+          <span class="stat-value">~8 s</span>
+          <span class="stat-label">para gerar e enviar o relatório diário de operações</span>
+        </div>
+        <div class="stat">
+          <span class="stat-value">2 de 2</span>
+          <span class="stat-label">incidentes simulados detectados, sem falso alarme</span>
+        </div>
+        <div class="stat">
+          <span class="stat-value">4</span>
+          <span class="stat-label">linguagens nos projetos: Python, Java, C# e TypeScript</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projetos em destaque -->
+    <section id="projetos" class="section container">
+      <div class="section-head">
+        <p class="eyebrow">Projetos em destaque</p>
+        <h2>Três projetos que conversam entre si</h2>
+        <p class="section-lead">
+          Um agente de IA, uma automação com n8n e um portal interno. Cada um resolve um problema
+          de operação e expõe métricas; o portal junta tudo numa tela só.
+        </p>
+      </div>
+
+      <!-- P3 -->
+      <article class="project">
+        <a class="project-media" href="https://giulia-castro.github.io/ops-portal/" target="_blank" rel="noopener">
+          <img src="assets/ops-portal.png" alt="Painel do Ops Portal: horas economizadas, saúde dos últimos dias e acerto da triagem" loading="lazy" width="2560" height="1800">
+        </a>
+        <div class="project-body">
+          <p class="project-kicker">Portal interno · dashboard · CI/CD</p>
+          <h3>Ops Portal</h3>
+          <p>
+            Junta a triagem de chamados e os relatórios diários numa tela só: horas economizadas,
+            custo de IA, saúde da operação e acerto da triagem. Quem tem perfil de operador roda
+            o relatório de um dia com um clique, e cada execução fica auditada.
+          </p>
+          <ul class="highlights">
+            <li>Backend <strong>Java 25 + Spring Boot 4</strong> que guarda as chaves e agrega as duas APIs</li>
+            <li>Se um sistema cai, o painel <strong>degrada em vez de quebrar</strong></li>
+            <li>CI sobe os <strong>três projetos com Docker</strong>, roda um relatório pelo portal e publica a demo</li>
+          </ul>
+          <ul class="chips" aria-label="Tecnologias">
+            <li>Java 25</li><li>Spring Boot</li><li>Vue 3</li><li>TypeScript</li><li>PostgreSQL</li><li>GitHub Actions</li>
+          </ul>
+          <div class="links">
+            <a class="btn btn-primary btn-sm" href="https://giulia-castro.github.io/ops-portal/" target="_blank" rel="noopener">Demo ao vivo</a>
+            <a class="btn btn-sm" href="https://github.com/Giulia-Castro/ops-portal" target="_blank" rel="noopener">Código</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- P2 -->
+      <article class="project project--reverse">
+        <a class="project-media project-media--tall" href="https://github.com/Giulia-Castro/ops-report-automation" target="_blank" rel="noopener">
+          <img src="assets/ops-report.png" alt="E-mail do relatório diário no dia de um incidente: status crítico, resumo executivo e alertas" loading="lazy" width="1600" height="2346">
+        </a>
+        <div class="project-body">
+          <p class="project-kicker">Automação · n8n · LLM</p>
+          <h3>Ops Report Automation</h3>
+          <p>
+            Substitui o relatório diário de operações feito à mão. Todo dia às 7h o n8n lê os logs,
+            um serviço Python calcula métricas e detecta anomalias, o Claude escreve o resumo e o
+            relatório chega por e-mail. Se algo falha, o plantão recebe um alerta.
+          </p>
+          <ul class="metrics" aria-label="Resultados medidos">
+            <li><span>9 de 9</span>relatórios entregues</li>
+            <li><span>~8 s</span>por relatório</li>
+            <li><span>0</span>dados pessoais no e-mail</li>
+          </ul>
+          <ul class="highlights">
+            <li><strong>Código decide, IA escreve:</strong> o status do dia vem de regras; o modelo só redige</li>
+            <li>Se a IA falhar, o relatório sai com <strong>resumo por regras</strong></li>
+          </ul>
+          <ul class="chips" aria-label="Tecnologias">
+            <li>n8n</li><li>Python</li><li>FastAPI</li><li>Claude API</li><li>Docker</li><li>LGPD</li>
+          </ul>
+          <div class="links">
+            <a class="btn btn-sm" href="https://github.com/Giulia-Castro/ops-report-automation" target="_blank" rel="noopener">Código</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- P1 -->
+      <article class="project">
+        <div class="project-media project-media--code" aria-hidden="true">
+          <div class="code-window">
+            <div class="code-dots"><span></span><span></span><span></span></div>
+<pre><code><span class="c">POST /v1/triages</span>
+{ <span class="k">"subject"</span>: <span class="s">"Webhook com 401"</span>,
+  <span class="k">"body"</span>: <span class="s">"Depois que trocamos o token..."</span> }
+
+<span class="c">→ 201 Created</span>
+{ <span class="k">"category"</span>: <span class="s">"INTEGRATION"</span>,
+  <span class="k">"severity"</span>: <span class="s">"MEDIUM"</span>,
+  <span class="k">"queue"</span>: <span class="s">"INTEGRATIONS"</span>,
+  <span class="k">"slaHours"</span>: <span class="n">24</span>,
+  <span class="k">"confidence"</span>: <span class="n">0.92</span>,
+  <span class="k">"kbArticleIds"</span>: [<span class="s">"KB-008"</span>] }</code></pre>
+          </div>
+        </div>
+        <div class="project-body">
+          <p class="project-kicker">Agente de IA · engenharia de prompt · evals</p>
+          <h3>Ticket Triage Agent</h3>
+          <p>
+            Agente que lê um chamado de suporte, consulta a base de conhecimento e chamados
+            parecidos e devolve categoria, severidade, fila, SLA e uma sugestão de resposta.
+            Casos incertos vão para revisão humana.
+          </p>
+          <ul class="highlights">
+            <li><strong>Prompts versionados</strong> e comparados contra um dataset rotulado de 48 chamados</li>
+            <li>Acerto, custo e latência medidos; baseline sem IA com <strong>79,2%</strong> de acerto como referência</li>
+            <li>Dados pessoais <strong>mascarados</strong> antes de chegar ao modelo, ao banco e aos logs</li>
+          </ul>
+          <ul class="chips" aria-label="Tecnologias">
+            <li>Python</li><li>FastAPI</li><li>Claude API</li><li>SQLAlchemy</li><li>Clean Architecture</li><li>pytest</li>
+          </ul>
+          <div class="links">
+            <a class="btn btn-sm" href="https://github.com/Giulia-Castro/ticket-triage-agent" target="_blank" rel="noopener">Código</a>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <!-- Como se conectam -->
+    <section id="como-se-conectam" class="section section--tinted">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Arquitetura</p>
+          <h2>Como os projetos se conectam</h2>
+          <p class="section-lead">
+            Cada sistema funciona sozinho e expõe uma API de métricas. O portal agrega as duas
+            e aciona o workflow do n8n. O CI sobe os três juntos e testa o fluxo inteiro.
+          </p>
+        </div>
+        <div class="diagram" role="img" aria-label="O portal consulta a triagem de chamados e o motor de relatórios, e dispara o workflow do n8n, que gera o relatório e envia o e-mail">
+          <div class="node node--p3">
+            <span class="node-tag">Portal</span>
+            <strong>Ops Portal</strong>
+            <span>Java · Vue</span>
+          </div>
+          <div class="edges" aria-hidden="true">
+            <span>métricas</span>
+            <span>métricas + dispara relatório</span>
+          </div>
+          <div class="node-column">
+            <div class="node">
+              <span class="node-tag">IA</span>
+              <strong>Ticket Triage Agent</strong>
+              <span>Classifica e encaminha chamados</span>
+            </div>
+            <div class="node">
+              <span class="node-tag">Automação</span>
+              <strong>Ops Report Automation</strong>
+              <span>n8n + motor de relatórios + e-mail</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Outros projetos -->
+    <section id="outros" class="section container">
+      <div class="section-head">
+        <p class="eyebrow">Outros projetos</p>
+        <h2>Primeiros passos em APIs</h2>
+      </div>
+      <div class="cards">
+        <a class="card" href="https://github.com/Giulia-Castro/api-tarefas" target="_blank" rel="noopener">
+          <span class="card-lang lang-python">Python</span>
+          <h3>API de Tarefas</h3>
+          <p>API REST com FastAPI para gerenciar tarefas: CRUD completo, validação com Pydantic e documentação automática.</p>
+          <span class="card-link">Ver código →</span>
+        </a>
+        <a class="card" href="https://github.com/Giulia-Castro/API-produtos" target="_blank" rel="noopener">
+          <span class="card-lang lang-csharp">C#</span>
+          <h3>API de Produtos</h3>
+          <p>API REST em ASP.NET Core (.NET 8) para gerenciar produtos, com CRUD completo e Swagger.</p>
+          <span class="card-link">Ver código →</span>
+        </a>
+        <a class="card" href="https://github.com/Giulia-Castro/api-animais" target="_blank" rel="noopener">
+          <span class="card-lang lang-python">Python</span>
+          <h3>API de Animais</h3>
+          <p>Consome uma API externa para buscar dieta, habitat e tempo de vida de animais e salva favoritos em JSON.</p>
+          <span class="card-link">Ver código →</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- Stack -->
+    <section id="stack" class="section section--tinted">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Stack</p>
+          <h2>Com o que eu trabalho</h2>
+        </div>
+        <div class="stack">
+          <div class="stack-group">
+            <h3>Back-end</h3>
+            <ul class="chips"><li>Python</li><li>FastAPI</li><li>Java</li><li>Spring Boot</li><li>C#</li><li>.NET</li></ul>
+          </div>
+          <div class="stack-group">
+            <h3>IA e automação</h3>
+            <ul class="chips"><li>Claude API</li><li>Engenharia de prompt</li><li>Evals</li><li>n8n</li></ul>
+          </div>
+          <div class="stack-group">
+            <h3>Dados</h3>
+            <ul class="chips"><li>PostgreSQL</li><li>SQL</li><li>SQLAlchemy</li><li>JPA</li><li>Flyway</li><li>Alembic</li></ul>
+          </div>
+          <div class="stack-group">
+            <h3>Front-end</h3>
+            <ul class="chips"><li>Vue 3</li><li>TypeScript</li><li>Vite</li></ul>
+          </div>
+          <div class="stack-group">
+            <h3>Entrega</h3>
+            <ul class="chips"><li>Docker</li><li>GitHub Actions</li><li>Testes automatizados</li><li>Clean Architecture</li></ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="section container contact">
+      <h2>Vamos conversar?</h2>
+      <p class="section-lead">O jeito mais rápido de falar comigo é pelo LinkedIn.</p>
+      <div class="actions actions--center">
+        <a class="btn btn-primary" href="https://br.linkedin.com/in/giulia-castro-a8302b260" target="_blank" rel="noopener">Falar no LinkedIn</a>
+        <a class="btn" href="https://github.com/Giulia-Castro" target="_blank" rel="noopener">Ver GitHub</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <span>© 2026 Giulia Castro</span>
+      <span>Feito com HTML e CSS, publicado no GitHub Pages.</span>
+    </div>
+  </footer>
+</body>
+</html>
